@@ -1,4 +1,4 @@
---[[ These 3 lines works the same
+--[[ These 3 lines functions the same
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 vim.keymap.set("n", "<leader>pv", ':Ex<CR>')
 vim.keymap.set("n", "<leader>pv", '<cmd>Ex<cr>')
@@ -24,7 +24,6 @@ vim.keymap.set("n", "<C-u>", "<C-u>zz")
 -- Navigate search results and center view
 vim.keymap.set("n", "n", "nzzzv")
 vim.keymap.set("n", "N", "Nzzzv")
-vim.keymap.set("n", "<leader>zig", "<cmd>LspRestart<cr>")
 
 -- No idea what VimWithMe does
 vim.keymap.set("n", "<leader>vwm", function()
@@ -49,10 +48,6 @@ vim.keymap.set({"n", "v"}, "<leader>d", [["_d]])
 
 -- This is going to get me cancelled
 vim.keymap.set("i", "<C-c>", "<Esc>")
-
--- Next line only works on TMUX
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>")
-vim.keymap.set("n", "<leader>f", vim.lsp.buf.format)
 
 -- Quick fix list
 vim.keymap.set("n", "<leader>co", "<cmd>copen<CR>zz")

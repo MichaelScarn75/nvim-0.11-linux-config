@@ -15,8 +15,8 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 vim.opt.backup = false
-vim.opt.undodir = "C:\\Users\\chong\\.vim\\undodir"
-vim.g.OmniSharp_server_path = "C:\\Program Files (x86)\\omnisharp-win-x64\\OmniSharp.exe"
+--vim.opt.undodir = "C:\\Users\\chong\\.vim\\undodir"
+--vim.g.OmniSharp_server_path = "C:\\Program Files (x86)\\omnisharp-win-x64\\OmniSharp.exe"
 vim.opt.undofile = true
 
 vim.opt.hlsearch = true
@@ -43,4 +43,4 @@ vim.g['airline#extensions#tabline#left_alt_sep'] = '>'
 --unique_tail_improved
 --]]
 vim.g['airline#extensions#tabline#formatter'] = 'unique_tail'
-vim.g['OmniSharp_server_stdio'] = 1
+--vim.g['OmniSharp_server_stdio'] = 1
